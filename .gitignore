@@ -1,2 +1,5 @@
 exercises.json
 exercises.js
+node_modules
+
+.env
