@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Drop and Gimme..</title>
+</head>
+
+<body>
+    <h1>Drop and Gimme...</h1>
+    
+    <a href="/getWorkout" class="getWorkout"><i class="icons fa-dumbbell"></i> Get My Workout</a>
+    <a href="/viewEdit" class="viewEdit"><i class="icons fa-toolbox"></i> View/Add/Edit Exercises</a>
+
+    <section class="workout">
+        <ul class="exerciseList">
+            <li class="labels">Warm Up</li>
+            <li class="warmup">
+                <div class="exercise-name"><%= chosen.name %></div>
+                <div class="exercise-desc"><%= chosen.instructions %></div>
+            </li>
+            <li class="labels">Exercise 1</li>
+            <li class="exercise1">
+                <div class="exercise-name"><%= exer1.name %></div>
+                <div class="exercise-desc"><%= exer1.instructions %></div>
+            </li>
+            <li class="labels">Exercise 2</li>
+            <li class="exercise2">
+                <div class="exercise-name"><%= exer2.name %></div>
+                <div class="exercise-desc"><%= exer2.instructions %></div>
+            </li>
+            <li class="labels">Exercise 3</li>
+            <li class="exercise3">
+                <div class="exercise-name"><%= exer3.name %></div>
+                <div class="exercise-desc"><%= exer3.instructions %></div>
+            </li>
+            <li class="labels">Exercise 4</li>
+            <li class="exercise4">
+                <div class="exercise-name"><%= exer4.name %></div>
+                <div class="exercise-desc"><%= exer4.instructions %></div>
+            </li>
+        </ul>
+    </section>
+    
+</body>
+</html>
